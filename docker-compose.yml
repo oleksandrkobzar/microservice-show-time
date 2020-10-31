@@ -1,0 +1,7 @@
+version: '3.7'
+services:
+  web-service:
+    build: ./WebService
+    restart: always
+    ports:
+      - "8080:8080"
